@@ -1,0 +1,14 @@
+body {
+    background-color: #13265c;
+}
+
+.text_box {
+    background-color: hsl(0, 0%, 32%);
+    color: antiquewhite;
+    display: inline-flex;
+    align-content: center;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color: black;
+  
+}

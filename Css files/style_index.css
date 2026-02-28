@@ -1,0 +1,96 @@
+body {
+  background-color: #088f8f;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Panchang", sans-serif;
+}
+
+.logo {
+  display: block;
+  width: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.dropdown-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.dropdown {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+button {
+  width: 130px;
+  background-color: hsl(146, 50%, 36%);
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(146, 50%, 46%);
+}
+
+button:active {
+ background-color:  hsl(146, 50%, 56%);
+}
+
+.diceroller {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.diceroller_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+
+.ccbutton {
+  display: block;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.ttrpg_maps {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.maps_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
